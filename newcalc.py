@@ -18,5 +18,7 @@ try:
 	elif operation == '/':
         	print('{} / {} = '.format(number_1, number_2))
         	print(number_1 / number_2)
+	else:
+		print("invalid operator.")
 except ArithmeticError as err:
 	print("you are entering the invalid operator")
